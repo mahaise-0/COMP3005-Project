@@ -9,4 +9,5 @@
 
 
 # ER-Model
-![3005_Project](https://user-images.githubusercontent.com/92119459/206509015-d3cb3b42-c3e9-4362-adce-819473864338.jpeg)
+![3005 Project_er_model](https://user-images.githubusercontent.com/92119459/206878197-760b45b4-efc8-486f-ab57-d76470bfdf44.jpeg)
+
