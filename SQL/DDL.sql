@@ -130,7 +130,7 @@ Create table publishes (
 
 Create table item (
     isbn INT PRIMARY KEY,
-    bask_num INT NOT NULL UNIQUE,
+    bask_num INT NOT NULL,
     quantity INT,
 
     FOREIGN KEY(bask_num)
