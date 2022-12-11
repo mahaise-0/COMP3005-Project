@@ -2,7 +2,8 @@ Create table "user" (
     userID VARCHAR(15) PRIMARY KEY,
     fname VARCHAR(15) NOT NULL UNIQUE,
     lname VARCHAR(15) NOT NULL UNIQUE,
-    email VARCHAR(25) NOT NULL UNIQUE
+    email VARCHAR(25) NOT NULL UNIQUE,
+    isowner BOOLEAN
 );
 
 Create table books (
