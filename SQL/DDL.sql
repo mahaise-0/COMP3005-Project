@@ -90,7 +90,7 @@ Create table pubAddress (
 );
 
 Create table checkout (
-    bask_num INT PRIMARY KEY,
+    bask_id INT PRIMARY KEY,
     order_num INT NOT NULL UNIQUE,
 
     FOREIGN KEY(order_num)
@@ -130,11 +130,11 @@ Create table publishes (
 
 Create table item (
     isbn INT PRIMARY KEY,
-    bask_num INT NOT NULL,
+    bask_id INT NOT NULL,
     quantity INT,
 
-    FOREIGN KEY(bask_num)
-        REFERENCES basket (bask_num),
+    FOREIGN KEY(bask_id)
+        REFERENCES basket (bask_id),
 
     FOREIGN KEY(isbn)
         REFERENCES books (isbn)
