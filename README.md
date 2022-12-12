@@ -9,6 +9,8 @@ pip install psycopg2
 Once Library.py is downloaded while in the current directory run:
 python3 Library.py
 
+The program should be properly exited via the in-app menu.
+
 # ER-Model
 ![3005 Project_er_model](https://user-images.githubusercontent.com/92119459/206878197-760b45b4-efc8-486f-ab57-d76470bfdf44.jpeg)
 
